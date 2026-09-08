@@ -62,5 +62,4 @@ proven development workflows that activate automatically.
 ## Reference
 
 - Repo: https://github.com/izmukovvladimir-cyber/superpowers
-- Upstream: https://github.com/obra/superpowers
 - License: MIT
