@@ -47,7 +47,7 @@ Opus -- лучшая модель для архитектурных решени
 ```
 Установи плагин Superpowers. Выполни обе команды через Bash:
 
-claude plugins marketplace add pcvelz/superpowers
+claude plugins marketplace add izmukovvladimir-cyber/superpowers
 claude plugins install superpowers@superpowers-marketplace
 
 Проверь: claude plugins list
@@ -79,7 +79,7 @@ gh auth login
 Это главный шаг. Скрипт спросит имя агента, роль, модель, твоё имя -- и создаст всё автоматически.
 
 ```bash
-git clone https://github.com/qwwiwi/public-architecture-claude-code.git
+git clone https://github.com/izmukovvladimir-cyber/public-architecture-claude-code.git
 cd public-architecture-claude-code
 bash install.sh
 ```
@@ -142,7 +142,7 @@ bash install.sh
 ## Шаг 6: Проверь тестами
 
 ```bash
-git clone https://github.com/qwwiwi/architecture-brain-tests.git /tmp/architecture-brain-tests
+git clone https://github.com/izmukovvladimir-cyber/architecture-brain-tests.git /tmp/architecture-brain-tests
 cd /tmp/architecture-brain-tests
 pip install pytest
 python3 -m pytest tests/ -v
@@ -241,7 +241,7 @@ https://github.com/RichardAtCT/claude-code-telegram
 
 ```
 Разверни Telegram Gateway:
-https://github.com/qwwiwi/jarvis-telegram-gateway
+https://github.com/izmukovvladimir-cyber/jarvis-telegram-gateway
 
 1. git clone репозиторий
 2. cp config.example.json config.json
