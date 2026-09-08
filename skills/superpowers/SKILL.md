@@ -1,12 +1,12 @@
 ---
 name: superpowers
-description: "Agentic skills framework (pcvelz fork): TDD, debugging, planning, code-review, git-worktrees, parallel agents. 15 skills with .tasks.json persistence between sessions."
+description: "Agentic skills framework (extended fork): TDD, debugging, planning, code-review, git-worktrees, parallel agents. 15 skills with .tasks.json persistence between sessions."
 user-invocable: false
 ---
 
-# Superpowers (pcvelz)
+# Superpowers
 
-[Superpowers](https://github.com/pcvelz/superpowers) -- extended fork of obra/superpowers for Claude Code.
+[Superpowers](https://github.com/izmukovvladimir-cyber/superpowers) -- extended fork of obra/superpowers for Claude Code.
 15 built-in skills that auto-activate by development context.
 Key advantage: `.tasks.json` persistence -- plans survive between sessions.
 
@@ -44,7 +44,7 @@ claude plugins install superpowers@superpowers-marketplace
 - **using-superpowers** -- meta-skill, auto-invocation rules
 - **shared** -- shared utilities for other skills
 
-## Key Differences from obra/superpowers
+## Key Differences from base Superpowers
 
 - `.tasks.json` persistence -- plans survive session restarts
 - Pre-commit hook -- blocks commit if tasks incomplete
@@ -61,6 +61,6 @@ proven development workflows that activate automatically.
 
 ## Reference
 
-- Repo: https://github.com/pcvelz/superpowers
+- Repo: https://github.com/izmukovvladimir-cyber/superpowers
 - Upstream: https://github.com/obra/superpowers
 - License: MIT

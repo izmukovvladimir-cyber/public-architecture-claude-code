@@ -226,7 +226,7 @@ cd ~/.claude-lab/homer/.claude
 
 ```
 Установи Telegram-плагин для Claude Code:
-https://github.com/RichardAtCT/claude-code-telegram
+https://github.com/izmukovvladimir-cyber/claude-code-telegram
 
 1. Создай бота через @BotFather в Telegram
 2. Установи: uv tool install claude-code-telegram
