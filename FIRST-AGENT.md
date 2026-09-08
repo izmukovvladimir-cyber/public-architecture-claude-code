@@ -191,7 +191,7 @@ Full-featured: voice messages, progress display, memory:
 
 ```bash
 # Clone gateway
-git clone https://github.com/qwwiwi/jarvis-telegram-gateway.git
+git clone https://github.com/izmukovvladimir-cyber/jarvis-telegram-gateway.git
 cd jarvis-telegram-gateway
 
 # Configure
@@ -202,7 +202,7 @@ cp config.example.json config.json
 python3 gateway.py
 ```
 
-See [jarvis-telegram-gateway](https://github.com/qwwiwi/jarvis-telegram-gateway) for details.
+See [jarvis-telegram-gateway](https://github.com/izmukovvladimir-cyber/jarvis-telegram-gateway) for details.
 
 ## Step 8: Test It
 

@@ -13,7 +13,7 @@ Key advantage: `.tasks.json` persistence -- plans survive between sessions.
 ## Install
 
 ```bash
-claude plugins marketplace add pcvelz/superpowers
+claude plugins marketplace add izmukovvladimir-cyber/superpowers
 claude plugins install superpowers@superpowers-marketplace
 ```
 

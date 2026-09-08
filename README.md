@@ -5,7 +5,7 @@ Universal architecture for Claude Code agents with local memory layers, hooks, s
 ## Quick Install
 
 ```bash
-git clone https://github.com/qwwiwi/public-architecture-claude-code.git
+git clone https://github.com/izmukovvladimir-cyber/public-architecture-claude-code.git
 cd public-architecture-claude-code
 bash install.sh
 ```
@@ -374,9 +374,9 @@ Each agent writes to its own namespace but searches across all. Cross-agent sear
 
 | Repo | Description |
 |------|-------------|
-| **[public-architecture-claude-code](https://github.com/qwwiwi/public-architecture-claude-code)** | Architecture, templates, scripts, install.sh |
-| **[jarvis-telegram-gateway](https://github.com/qwwiwi/jarvis-telegram-gateway)** | Gateway: Telegram -> Claude Code |
-| **[architecture-brain-tests](https://github.com/qwwiwi/architecture-brain-tests)** | 800 tests verifying everything above |
+| **[public-architecture-claude-code](https://github.com/izmukovvladimir-cyber/public-architecture-claude-code)** | Architecture, templates, scripts, install.sh |
+| **[jarvis-telegram-gateway](https://github.com/izmukovvladimir-cyber/jarvis-telegram-gateway)** | Gateway: Telegram -> Claude Code |
+| **[architecture-brain-tests](https://github.com/izmukovvladimir-cyber/architecture-brain-tests)** | 800 tests verifying everything above |
 
 Test categories: T20 (security), T26 (models), T27 (COMPACT_WINDOW), T28 (Learnings v2), and 25+ more.
 
@@ -385,7 +385,7 @@ Test categories: T20 (security), T26 (models), T27 (COMPACT_WINDOW), T28 (Learni
 | Method | Use Case | Repo |
 |--------|----------|------|
 | **claude-code-telegram** (plugin) | Interactive coding via Telegram | [RichardAtCT/claude-code-telegram](https://github.com/RichardAtCT/claude-code-telegram) |
-| **Telegram Gateway** (standalone) | Autonomous multi-agent: voice, progress, memory, 3+ bots | [qwwiwi/jarvis-telegram-gateway](https://github.com/qwwiwi/jarvis-telegram-gateway) |
+| **Telegram Gateway** (standalone) | Autonomous multi-agent: voice, progress, memory, 3+ bots | [izmukovvladimir-cyber/jarvis-telegram-gateway](https://github.com/izmukovvladimir-cyber/jarvis-telegram-gateway) |
 
 ## Documentation
 

@@ -372,8 +372,8 @@ if [[ "$SETUP_GATEWAY_LOWER" != "n" ]]; then
     if [ ! -f "${GATEWAY_DIR}/gateway.py" ]; then
         log "Downloading gateway from jarvis-telegram-gateway..."
         GATEWAY_REPO="/tmp/jarvis-gateway-install-$$"
-        gh repo clone qwwiwi/jarvis-telegram-gateway "${GATEWAY_REPO}" 2>/dev/null || \
-        git clone "https://github.com/qwwiwi/jarvis-telegram-gateway.git" "${GATEWAY_REPO}" 2>/dev/null
+        gh repo clone izmukovvladimir-cyber/jarvis-telegram-gateway "${GATEWAY_REPO}" 2>/dev/null || \
+        git clone "https://github.com/izmukovvladimir-cyber/jarvis-telegram-gateway.git" "${GATEWAY_REPO}" 2>/dev/null
 
         if [ -f "${GATEWAY_REPO}/gateway.py" ]; then
             cp "${GATEWAY_REPO}/gateway.py" "${GATEWAY_DIR}/gateway.py"
@@ -383,7 +383,7 @@ if [[ "$SETUP_GATEWAY_LOWER" != "n" ]]; then
             log "Configure: cp ${GATEWAY_DIR}/config.example.json ${GATEWAY_DIR}/config.json"
             log "Features: reactions, inline buttons, webhook API, topic routing, streaming modes"
         else
-            warn "Could not download gateway. Install manually from: github.com/qwwiwi/jarvis-telegram-gateway"
+            warn "Could not download gateway. Install manually from: github.com/izmukovvladimir-cyber/jarvis-telegram-gateway"
         fi
         rm -rf "${GATEWAY_REPO}"
     else
