@@ -384,7 +384,7 @@ Test categories: T20 (security), T26 (models), T27 (COMPACT_WINDOW), T28 (Learni
 
 | Method | Use Case | Repo |
 |--------|----------|------|
-| **claude-code-telegram** (plugin) | Interactive coding via Telegram | [RichardAtCT/claude-code-telegram](https://github.com/RichardAtCT/claude-code-telegram) |
+| **claude-code-telegram** (plugin) | Interactive coding via Telegram | [izmukovvladimir-cyber/claude-code-telegram](https://github.com/izmukovvladimir-cyber/claude-code-telegram) |
 | **Telegram Gateway** (standalone) | Autonomous multi-agent: voice, progress, memory, 3+ bots | [izmukovvladimir-cyber/jarvis-telegram-gateway](https://github.com/izmukovvladimir-cyber/jarvis-telegram-gateway) |
 
 ## Documentation
